@@ -1,9 +1,6 @@
-// @flow
-
 import { combineReducers } from 'redux';
 
-import Auth from './auth/reducers';
-
+import Starships from './starships/reducers'
 export default combineReducers({
-  Auth,
+  Starships,
 });
